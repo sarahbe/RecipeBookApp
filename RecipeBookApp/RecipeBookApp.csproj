@@ -10,5 +10,11 @@
 
   <ItemGroup>
     <Compile Remove="Controllers\_ؤؤخعىفController.cs" />
+    <Compile Remove="Views\Recipe.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Repsitories\" />
+    <Folder Include="DAL\" />
+    <Folder Include="Views\Recipe\" />
   </ItemGroup>
 </Project>
